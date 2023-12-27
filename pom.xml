@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>spring-01-servlet</module>
+      <module>springmvc-02-hellomvc</module>
   </modules>
 
   <properties>
