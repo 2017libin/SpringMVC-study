@@ -18,3 +18,6 @@
    2. 通过Model
    3. 通过ModelMap
 8. spring-08-encoding：使用springmvc的过滤器解决乱码问题
+9. spring-09-json：设置响应json格式的数据
+   1. 设置return内容为响应数据：@ResponseBody、@RestController
+   2. 设置响应json内容的编码格式：通过mvc配置文件统一设置、`@RequestMapping(value = "/j1",produces = "application/json;charset=utf-8")`
