@@ -19,7 +19,7 @@
     </bean>
 
     <!--Handler-->
-<!--    id 表示的是映射的路由，class表示的是映射的类-->
+    <!-- id表示的是映射的路由，class表示的是映射的类-->
     <bean id="/hello" class="org.example.controller.HelloController"/>
 
 </beans>
