@@ -15,6 +15,7 @@
     <module>springmvc-03-hellomvc-annotation</module>
     <module>springmvc-04-restfulcontroller</module>
     <module>springmvc-05-model</module>
+    <module>springmvc-08-encoding</module>
   </modules>
 
   <properties>
