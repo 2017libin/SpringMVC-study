@@ -1,0 +1,20 @@
+# SpringMVC-study
+1. spring-01-servlet：普通javaweb的使用例子
+2. spring-02-hellomvc：基于配置文件的springmvc
+3. spring-03-hellomvc-annotation：基于注解的springmvc
+4. spring-04-restfulcontroller
+   1. 路径变量
+   2. 限定http请求方法（get/post/...）
+5. spring-05-model：数据处理及跳转
+   1. 直接响应数据
+   2. 重定向
+   3. 转发
+6. spring-06-parameter：后端如何接收前端数据
+   1. 请求参数和方法参数一致
+   2. 请求参数和方法参数不一致
+   3. 多个请求参数传给方法的对象参数：映射到对象的属性值
+7. spring-07-return：后端如何响应数据到前端
+   1. 通过ModelAndView
+   2. 通过Model
+   3. 通过ModelMap
+8. spring-08-encoding：使用springmvc的过滤器解决乱码问题
