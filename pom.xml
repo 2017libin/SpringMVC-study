@@ -9,6 +9,7 @@
 
   <name>SpringMVC-study</name>
   <url>http://maven.apache.org</url>
+
   <modules>
     <module>spring-01-servlet</module>
     <module>springmvc-02-hellomvc</module>
@@ -18,6 +19,7 @@
     <module>springmvc-08-encoding</module>
     <module>springmvc-09-json</module>
     <module>springmvc-10-interceptor</module>
+    <module>springmvc-11-file</module>
   </modules>
 
   <properties>
