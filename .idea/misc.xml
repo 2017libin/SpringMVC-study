@@ -19,6 +19,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/springmvc-04-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-05-restfulcontroller/pom.xml" />
       </set>
     </option>
   </component>
