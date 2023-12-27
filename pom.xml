@@ -16,6 +16,7 @@
     <module>springmvc-04-restfulcontroller</module>
     <module>springmvc-05-model</module>
     <module>springmvc-08-encoding</module>
+    <module>springmvc-09-json</module>
   </modules>
 
   <properties>
@@ -49,6 +50,20 @@
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.12.1</version>
     </dependency>
   </dependencies>
 </project>

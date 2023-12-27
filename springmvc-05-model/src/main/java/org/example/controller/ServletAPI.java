@@ -2,6 +2,7 @@ package org.example.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,6 +13,7 @@ import java.io.IOException;
 public class ServletAPI {
 
     @RequestMapping("/m1/t1")
+    @ResponseBody  // 将return的内容返回到前端
     public String test(HttpServletRequest request, HttpServletResponse response){
         HttpSession session = request.getSession();
         System.out.println(session.getId());
