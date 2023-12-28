@@ -23,8 +23,8 @@ public class BookController {
     @RequestMapping("/allBook")
     public String list(Model model) {
         System.out.println("in allBook....");
-//        List<Books> list = bookService.queryAllBook();
-//        model.addAttribute("list", list);
+        List<Books> list = bookService.queryAllBook();
+        model.addAttribute("list", list);
         return "allBook";
     }
 
