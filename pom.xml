@@ -20,6 +20,7 @@
     <module>springmvc-09-json</module>
     <module>springmvc-10-interceptor</module>
     <module>springmvc-11-file</module>
+    <module>ssm</module>
   </modules>
 
   <properties>
